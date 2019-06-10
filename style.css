@@ -22,6 +22,8 @@ body {
 #page-nav label,
 #hamburger {
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Menu Items */
@@ -70,6 +72,20 @@ body {
     }
 }
 
+/*Logo*/
+#container_logo {
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+}
+
+#sprite_logo {
+    width: 10vw;
+    height: 10vw;
+    background-image: url(Billeder/logo_white_background.jpg);
+    background-size: 100%;
+}
+
 /*Splash*/
 #splash {
     width: 100vw;
@@ -94,19 +110,42 @@ body {
     }
 }
 
-/*Footer*/
-#footer {
-    background-color: #f0b8b1;
-    height: 40px;
-    bottom: 0%;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*
+ Kan slettes bagefter*/
+#splash_1 {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(Billeder/splash_2.svg);
+    background-size: 100%;
 }
 
-#footer a {
-    text-decoration: none;
-    color: white;
+@media (orientation: landscape) {
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 25% 32%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 25% 32%;
+    }
+}
+
+/*Footer*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
 }
