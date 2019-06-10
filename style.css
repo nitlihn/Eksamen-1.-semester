@@ -8,6 +8,13 @@ body {
 
 /* [ON BIG SCREEN] */
 /* Wrapper */
+#nav_wrapper {
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+
 #page-nav {
     width: 100%;
     background: white;
@@ -15,7 +22,6 @@ body {
     /* If you want the navigation bar to stick on top*/
     position: sticky;
     top: 0;
-
 }
 
 /* Hide Hamburger */
@@ -73,11 +79,6 @@ body {
 }
 
 /*Logo*/
-#container_logo {
-    top: 1vw;
-    left: 1vw;
-}
-
 #sprite_logo {
     width: 10vw;
     height: 10vw;
