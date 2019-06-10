@@ -74,7 +74,6 @@ body {
 
 /*Logo*/
 #container_logo {
-    position: absolute;
     top: 1vw;
     left: 1vw;
 }
@@ -138,4 +137,14 @@ body {
 /*Footer*/
 .footer {
     text-align: center;
+}
+
+.media_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    font-size: 25px;
+    margin: 2vw;
 }
