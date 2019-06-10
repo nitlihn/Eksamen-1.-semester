@@ -92,3 +92,20 @@ body {
         background-position: 25% 32%;
     }
 }
+
+/*Footer*/
+#footer {
+    background-color: #f0b8b1;
+    height: 40px;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
