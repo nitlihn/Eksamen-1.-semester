@@ -68,3 +68,27 @@ body {
         display: block;
     }
 }
+
+/*Splash*/
+#splash {
+    width: 100vw;
+    height: 100vw;
+    background-image: url(Billeder/splash_2.png);
+    background-size: 100%;
+}
+
+@media (orientation: landscape) {
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 25% 32%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 25% 32%;
+    }
+}
