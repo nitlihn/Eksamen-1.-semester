@@ -5,6 +5,19 @@ body {
     height: 100%;
 }
 
+p {
+    color: #8E8E74;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    color: #8E8E74;
+    font-family: 'Rokkitt', serif;
+    font-size: 30px;
+}
+
+
 /* [ON BIG SCREEN] */
 /* Wrapper */
 #nav_wrapper {
@@ -114,7 +127,7 @@ body {
 #about_splash {
     width: 100vw;
     height: 100vw;
-    background-image: url(Billeder/about.png);
+    background-image: url(Billeder/about_2.png);
     background-size: cover;
 }
 
@@ -135,7 +148,7 @@ body {
 }
 
 .about_content {
-    background-color: #E5D8CF;
+    background-color: ;
 }
 
 .about_content img {
@@ -152,7 +165,6 @@ body {
 }
 
 .about_content p {
-    background-color: #E5D8CF;
     font-family: 'Poppins', sans-serif;
     margin: 10vw;
     margin-bottom: 20vw;
@@ -164,31 +176,46 @@ body {
 
 /*Contact*/
 
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    background-color: grey;
+}
+
+#contact .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .col {
+    flex-basis: 500px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 30px;
+    padding: 25px;
+}
+
 input[type=text],
 select,
 textarea {
     font-family: 'Poppins', sans-serif;
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
     resize: vertical
-        /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #ce9baa;
+    background-color: #8E8E74;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -197,12 +224,10 @@ input[type=submit] {
     font-family: 'Poppins', sans-serif;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: Gray;
+    background-color: #C8C7AE;
 }
 
-/* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -215,6 +240,7 @@ input[type=submit]:hover {
     text-align: center;
     position: sticky;
     font-family: 'Poppins', sans-serif;
+    color: #C8C7AE;
 }
 
 .media_wrapper {
@@ -225,6 +251,7 @@ input[type=submit]:hover {
 .item {
     font-size: 25px;
     margin: 2vw;
+    color: #8E8E74;
 }
 
 .fa {
