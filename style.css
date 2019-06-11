@@ -54,7 +54,7 @@ h1 {
 
 #page-nav ul li {
     display: inline-block;
-    padding: 10px;
+    padding: 1.5vw;
     box-sizing: border-box;
 }
 
@@ -73,7 +73,7 @@ h1 {
         background: white;
         font-style: normal;
         font-size: 1.8em;
-        padding: 10px;
+        padding: 1.5vw;
     }
 
     /* Break down menu items into vertical */
@@ -152,8 +152,6 @@ h1 {
 }
 
 .about_content img {
-    margin-top: 40px;
-    margin-bottom: 10px;
     max-height: 200px;
     max-width: 200px;
     border-radius: 50%;
@@ -166,8 +164,7 @@ h1 {
 
 .about_content p {
     font-family: 'Poppins', sans-serif;
-    margin: 10vw;
-    margin-bottom: 20vw;
+    margin: 6vw;
     opacity: .6;
     text-align: left;
 
@@ -184,7 +181,7 @@ h1 {
     width: 30vw;
     height: 30vw;
     background-color: #f1f1f1;
-    margin: 10px;
+    margin: 6vw;
     padding: 20px;
     font-size: 30px;
 }
@@ -207,13 +204,12 @@ h1 {
 }
 
 #contact .col {
-    flex-basis: 500px;
+    flex-basis: 400px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     background: white;
-    margin: 30px;
-    padding: 25px;
+    margin: 6vw;
 }
 
 input[type=text],
