@@ -110,46 +110,31 @@ body {
 }
 
 /*About*/
-.container {
-    justify-content: center;
-    padding: 20px;
+#about_splash {
     width: 100vw;
     height: 100vw;
-    margin: 0 auto;
-    text-align: justify;
-    background-color: white;
-    color: #555;
-    font-size: 1.1em;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url(Billeder/about.png);
+    background-size: cover;
 }
 
-.about {
-    color: #605e5e;
-    ;
+@media (orientation: landscape) {
+    #about_splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 25% 32%;
+    }
 }
 
-.relative {
-    padding: 10px;
-    color: white;
-    width: 260px;
-    height: 260px;
-    background-color: #ebd3be;
-    position: relative;
-    z-index: 1;
+@media only screen and (min-width: 500px) {
+    #about_splash {
+        width: 100vw;
+        height: 56.25vw;
+        background-position: 25% 32%;
+    }
 }
 
-.child {
-    background-color: #eee;
-    padding: 10px;
-    margin: 10px;
-    opacity: .9;
-    width: 288px;
-    height: 320px;
-    position: relative;
-    z-index: 30;
-    top: 100px;
-    left: 130px
-}
+
+
 
 /*Footer*/
 
