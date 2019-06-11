@@ -1,9 +1,8 @@
 /* [Body og HTML] */
 html,
 body {
-    padding: 0;
     margin: 0;
-    font-family: arial, sans-serif;
+    height: 100%;
 }
 
 /* [ON BIG SCREEN] */
@@ -110,34 +109,53 @@ body {
     }
 }
 
-/*
- Kan slettes bagefter*/
-#splash_1 {
+/*About*/
+.container {
+    justify-content: center;
+    padding: 20px;
     width: 100vw;
     height: 100vw;
-    background-image: url(Billeder/splash_2.svg);
-    background-size: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: white;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (orientation: landscape) {
-    #splash {
-        width: 100vw;
-        height: 56.25vw;
-        background-position: 25% 32%;
-    }
+.about {
+    color: #605e5e;
+    ;
 }
 
-@media only screen and (min-width: 500px) {
-    #splash {
-        width: 100vw;
-        height: 56.25vw;
-        background-position: 25% 32%;
-    }
+.relative {
+    padding: 10px;
+    color: white;
+    width: 260px;
+    height: 260px;
+    background-color: #ebd3be;
+    position: relative;
+    z-index: 1;
+}
+
+.child {
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    opacity: .9;
+    width: 288px;
+    height: 320px;
+    position: relative;
+    z-index: 30;
+    top: 100px;
+    left: 130px
 }
 
 /*Footer*/
+
 .footer {
     text-align: center;
+    position: sticky;
 }
 
 .media_wrapper {
@@ -152,8 +170,11 @@ body {
 
 .fa {
     width: 50px;
+    justify-content: center;
 }
 
 .copyright {
     font-size: 9px;
+    margin: 2vw;
+    justify-content: center;
 }
