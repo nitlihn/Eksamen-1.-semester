@@ -36,6 +36,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #page-nav ul li {
@@ -133,6 +134,32 @@ body {
     }
 }
 
+.about_content {
+    background-color: #E5D8CF;
+}
+
+.about_content img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.about_content figure {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about_content p {
+    background-color: #E5D8CF;
+    font-family: 'Poppins', sans-serif;
+    margin: 10vw;
+    margin-bottom: 20vw;
+    opacity: .6;
+    text-align: left;
+
+}
 
 
 
@@ -141,6 +168,7 @@ body {
 .footer {
     text-align: center;
     position: sticky;
+    font-family: 'Poppins', sans-serif;
 }
 
 .media_wrapper {
@@ -159,7 +187,7 @@ body {
 }
 
 .copyright {
-    font-size: 9px;
+    font-size: 10px;
     margin: 2vw;
     justify-content: center;
 }
